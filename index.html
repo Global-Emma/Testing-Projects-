@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Front-end</title>
+</head>
+<body class="js-body">
+
+  <button class="but">click me</button>
+  <button class="but-para">click to add paragraph</button>
+  <div class="add"></div>
+
+  <ul class="parent">
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+  </ul>
+<hr>
+<br><br>
+
+<section class="main-body">
+  <div class="output-box">
+    <h2>Output</h2><br>
+    <p>Programmer Memes</p>
+    <pre class="memes js-memes"></pre>
+    <p>Tell Me Something Funny!</p>
+    <pre class="jokes js-jokes"></pre>
+    <p>Give Me some Wisdom</p>
+    <pre class="wisdom js-wisdom"></pre>
+    <p>I want a Riddle</p>
+    <pre class="riddle js-riddles"></pre>
+    <pre class="riddle-results js-riddles-results"></pre>
+  </div>
+  <div class="button-box">
+    <h2>Actions</h2><br>
+    <button>Show a Meme</button>
+    <button class="js-jokes-btn">Tell Me a Joke</button>
+    <button class="js-quotes">Random Quote</button>
+    <button class="js-riddle-btn">Riddle Me</button>
+    <button class="answers js-answers">Riddle Answers</button>
+  </div>
+</section>
+<br><br><br>
+
+<section class="caculator">
+
+  <p class="display js-display"></p>
+
+<div class="calc-box">
+    <button class="num" onclick="
+      caculatorFunction(1)
+    ">1</button>
+    <button class="num"onclick="
+      caculatorFunction(2)
+    ">2</button>
+    <button class="num" onclick="
+      caculatorFunction(3)
+    ">3</button>
+    <button class="num" onclick="
+      caculatorFunction('+')
+    ">+</button><br>
+    <button class="num" onclick="
+      caculatorFunction(4)
+    ">4</button>
+    <button class="num" onclick="
+      caculatorFunction(5)
+    ">5</button>
+    <button class="num" onclick="
+      caculatorFunction(6)
+    ">6</button>
+      <button class="num" onclick="
+        caculatorFunction('-')
+      ">-</button><br>
+      <button class="num" onclick="
+        caculatorFunction(7)
+    ">7</button>
+      <button class="num" onclick="
+        caculatorFunction(8)
+    ">8</button>
+      <button class="num" onclick="
+        caculatorFunction(9)
+    ">9</button>
+    <button class="num" onclick="
+      caculatorFunction('/')
+    ">/</button><br>
+    <button class="num" onclick="
+      caculatorFunction('*')
+    ">X</button>
+    <button class="num" onclick="
+      caculatorFunction(0)
+    ">0</button>
+    <button class="num" onclick="
+      caculatorFunction('.')
+    ">.</button>
+    <button class="num js-eval" onclick="
+      caculation = eval(caculation);
+      displayCaculation()
+    ">=</button>
+    <button class="num js-eval" onclick="
+      caculation = '';
+      displayCaculation()
+    ">C</button>
+    <button class="num js-eval" onclick="
+      deleteNo();
+      displayCaculation()
+    "><-</button>
+</div>
+</section>
+<br><br>
+
+<!-- todo list project; -->
+
+
+
+<section class="todo-list">
+
+  <h1 style="text-align: center; color: rgb(204, 60, 60)">TO-DO LIST</h1>
+
+  <div class="write-up">
+    <input type="text" class="task js-task">
+  <input type="date" class="date js-time">
+  
+  <button class="js-add add" onclick="
+    addNewToDo();
+  ">Add</button>
+  </div>
+  <br>
+  <div class=" js-list list"></div>
+</section>
+
+
+  <!-- Grid Project  -->
+
+  <section class="grid-body">
+
+    <div class="first-flex">
+    <div class="top-flex">
+    <div class="div1 item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero sapiente consectetur maiores natus non laboriosam mollitia? Voluptates, labore officiis reprehenderit asperiores, similique facere debitis molestias suscipit quam error voluptate totam.</div>
+    <div class="div2 item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est repellendus architecto blanditiis id, quam iusto at sit laborum quisquam iste.</div>
+    </div>
+    <div class="bottom-flex">
+    <div class="div3 item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, veniam!</div>
+    <div class="div4 item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error est illo veniam at cupiditate excepturi numquam deserunt, eos quo amet? Lorem ipsum dolor sit amet consectetur adipisicing elit</div>
+  </div>
+</div>
+    <div class="div5 item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt tempora ut ex repellendus perferendis ea dicta vel earum voluptatum aliquid. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt tempora ut ex repellendus perferendis ea dicta vel earum voluptatum aliquid</div>
+  </section>
+
+<section class="main-grid">
+  <div class="one"></div>
+  <div class="two"></div>
+  <div class="three"></div>
+  <div class="four"></div>
+  <div class="five"></div>
+</section>
+<!-- <p class="tests-text" style="text-anchor:middle 80">This is some Text</p> -->
+
+<!-- Drop Dowm menu Project -->
+
+<section class="drop-down">
+  <div class="text js-text">
+    Click Here
+  </div>
+
+  <div class="drop text-drop">
+  <ul class="menu">
+    <li>Home</li>
+    <li>Portfolio</li>
+    <li>Services</li>
+    <li>Contact</li>
+    <li style="border: none">About</li>
+  </ul>
+</div>
+</section>
+
+<br><br>
+
+<div class="box">
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+</div>
+<br><br><br><br>
+<script src="script.js"></script>
+</body>
+</html>
